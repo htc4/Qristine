@@ -51,7 +51,6 @@ body {
 .newClass5 {
   width: 155px;
   height: 62px;
-  background: url("../images/v603_10.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -98,7 +97,7 @@ body {
 .newClass9 {
   width: 365px;
   height: 172px;
-  background: url("../images/v603_9.png");
+  background: url("../images/logo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
