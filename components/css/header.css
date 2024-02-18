@@ -1,30 +1,122 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-size: 14px;
 }
+<<<<<<< HEAD
 .class_1 {
+=======
+
+.newClass1 {
+>>>>>>> 5d93145bb15e92d40db7b9b1ab0ffd98b3721cf6
   width: 100%;
   height: 172px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 0px;
   overflow: hidden;
 }
+<<<<<<< HEAD
 .class_2 {
+=======
+
+.newClass2 {
+>>>>>>> 5d93145bb15e92d40db7b9b1ab0ffd98b3721cf6
   width: 100%;
   height: 172px;
-  background: rgba(237,227,217,1);
+  background: rgba(237, 227, 217, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 0px;
   overflow: hidden;
 }
+<<<<<<< HEAD
 .class_3 {
+=======
+
+.newClass3 {
+  width: 210px;
+  color: rgba(200, 182, 172, 1);
+  position: absolute;
+  top: 55px;
+  left: 523px;
+  font-family: Inknut Antiqua;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.newClass4 {
+  width: 103px;
+  color: rgba(200, 182, 172, 1);
+  position: absolute;
+  top: 56px;
+  left: 995px;
+  font-family: Inknut Antiqua;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.newClass5 {
+  width: 155px;
+  height: 62px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 1158px;
+  overflow: hidden;
+}
+
+.newClass6 {
+  width: 155px;
+  height: 38px;
+  background: rgba(200, 182, 172, 1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.newClass7 {
+  width: 81px;
+  color: rgba(237, 227, 217, 1);
+  position: absolute;
+  top: 0px;
+  left: 37px;
+  font-family: Inknut Antiqua;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.newClass8 {
+  width: 142px;
+  color: rgba(200, 182, 172, 1);
+  position: absolute;
+  top: 55px;
+  left: 793px;
+  font-family: Inknut Antiqua;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.newClass9 {
+>>>>>>> 5d93145bb15e92d40db7b9b1ab0ffd98b3721cf6
   width: 365px;
   height: 172px;
   background: url("../images/logo.png");
@@ -36,6 +128,7 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
+<<<<<<< HEAD
 }
 .class_4 {
   width: 280px;
@@ -85,3 +178,6 @@ body {
   opacity: 1;
   text-align: left;
 }
+=======
+}
+>>>>>>> 5d93145bb15e92d40db7b9b1ab0ffd98b3721cf6
