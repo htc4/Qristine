@@ -3,20 +3,22 @@
 ## Directory stracture
 
 .
-├── Components
-│   ├── Css
-│   │   ├── collections
-│   │   ├── footer
-│   │   ├── general
-│   │   ├── header
-│   │   └── shop
-│   ├── Images
-│   ├── Js
-│   │   ├── collections
-│   │   ├── footer
-│   │   ├── general
-│   │   ├── header
-│   │   └── shop
+├── index.html
+|   ├── Components
+│   |   ├── Css
+│   │   │   ├── collections
+│   │   |   ├── footer
+│   │   │   ├── general
+|   |   │   ├── header
+│   │   │   └── shop
+|   |   ├── Images
+│   │   │
+│   │   ├── Js
+│   │   │    ├── collections
+│   │   │    ├── footer
+│   │   │    ├── general
+|   |   │    ├── header
+│   │   │    └── shop
 
 ## Installation 
 
@@ -27,6 +29,7 @@ git clone https://github.com/htc4/Qristine.git
 ## Usage 
 
 Open Qristine directory -> index.html file
+
 <img src="./images/open.jpg" alt="open" width="300">
 
 ## Description
