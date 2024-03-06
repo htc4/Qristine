@@ -2,6 +2,7 @@
 
 ## Directory stracture
 
+```
 .
 ├── index.html
 |   ├── Components
@@ -19,6 +20,7 @@
 │   │   │    ├── general
 |   |   │    ├── header
 │   │   │    └── shop
+```
 
 ## Installation 
 
