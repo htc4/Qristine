@@ -27,7 +27,7 @@ body {
 .class_3 {
   width: 365px;
   height: 172px;
-  background: url("../images/logo.png");
+  background: url("./images/logo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
