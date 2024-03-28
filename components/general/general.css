@@ -14,64 +14,36 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.new_class_2 {
-  width: 100%;
+div_1{
   height: 855px;
   background: rgba(200,182,172,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
 }
-.new_class_3 {
-  width: 100%;
+div_2{
   height: 100%;
   background: rgba(237,227,217,1);
-  opacity: 1;
-  position: absolute;
-  top: 855px;
-  left: 0px;
-  overflow: hidden;
 }
-.new_class_4 {
+.new_class_2 {
   width: 360px;
   height: 461px;
-  background: url("./images/design.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
   top: 1222px;
+  overflow: hidden;
+}
+.design {
   left: 975px;
-  overflow: hidden;
+  background: url("./images/design.png");
 }
-.new_class_5 {
-  width: 360px;
-  height: 461px;
-  background: url("./images/corporate.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 1222px;
+.corporate {
   left: 535px;
-  overflow: hidden;
+  background: url("./images/corporate.png");
 }
-.new_class_6 {
-  width: 360px;
-  height: 461px;
+.individual {
   background: url("./images/individual.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 1222px;
   left: 109px;
-  overflow: hidden;
 }
 .new_class_7 {
   width: 374px;
