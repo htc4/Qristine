@@ -1,3 +1,115 @@
-body{
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #C8B6AC;
 }
+
+.background-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.background-container-header {
+    position: absolute;
+    top: 20%;
+    font-size: 550%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EDE3D9;
+}
+
+.shop-button {
+    position: absolute;
+    top: 40%;
+    font-size: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #C8B6AC;
+    border-color: #C8B6AC;
+    color: #EDE3D9;
+    border-radius: 5%;
+}
+
+.shop-button:hover {
+    cursor: pointer;
+    padding: 0.5% 1%;
+    color: #EDE3D9;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .background-container-header{
+        font-size: 150%;
+    }
+    .shop-button {
+        font-size: 70%;
+        top: 35%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .background-container-header{
+        font-size: 250%;
+    }
+    .shop-button {
+        font-size: 100%;
+        top: 50%;
+    }
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Reset default margin */
+    background-color: #C8B6AC;
+    font-family: Inknut Antiqua;
+}
+
+.services {
+    background-color: #EDE3D9;
+    padding-top: 15%;
+    height: 180%;
+}
+
+.services p {
+    color: #C8B6AC;
+    background-color: #EDE3D9;
+    border-color:  #EDE3D9;
+}
+
+.services p:hover {
+    cursor: none;
+    color: #C8B6AC;
+    background-color: #EDE3D9;
+    border-color:  #EDE3D9;
+}
+
+.services p:active {
+    cursor: none;
+    color: #C8B6AC;
+    background-color: #EDE3D9;
+    border-color: #EDE3D9;
+}
+
+.services .custom-card {
+    border-radius: 50% 50% 0 0;
+    background-color: #C8B6AC;
+    height: 130%;
+}
+
+.services .card-img-top {
+    height: 50%;
+    width: 50%;
+    padding-left: 20%;
+}
+
+.services .card-button {
+    margin-top: 10px;
+}
+
