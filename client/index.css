@@ -1,24 +1,31 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Reset default margin */
+    background-color: #C8B6AC;
+    font-family: Inknut Antiqua;
+}
+
 .background-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Setting height to viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #C8B6AC;
+    background: url('./image/background.jpg') no-repeat center center; /* Use image as background */
+    background-size: cover; /* Cover the container with the background image */
+    background-color: #C8B6AC; /* Fallback color */
 }
 
 .background-container img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    display: none; /* Hide the image */
 }
 
 .background-container-header {
     position: absolute;
     top: 20%;
-    font-size: 550%;
+    font-size: 550%; /* Responsive font size */
     left: 50%;
     transform: translate(-50%, -50%);
     color: #EDE3D9;
@@ -27,21 +34,23 @@
 .shop-button {
     position: absolute;
     top: 40%;
-    font-size: 200%;
+    font-size: 2.5vw; /* Responsive font size */
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #C8B6AC;
-    border-color: #C8B6AC;
+    background-color: transparent; /* Transparent background */
+    border-color: transparent; /* Transparent border */
     color: #EDE3D9;
     border-radius: 5%;
+    border: 2px solid #EDE3D9; /* Add border */
+    padding: 1vw 2vw; /* Responsive padding */
 }
 
 .shop-button:hover {
     cursor: pointer;
-    padding: 0.5% 1%;
-    color: #EDE3D9;
-    text-decoration: none;
+    color: #C8B6AC; /* Change text color on hover */
+    background-color: #EDE3D9; /* Change background color on hover */
 }
+
 
 @media (max-width: 768px){
     .background-container-header{
@@ -63,53 +72,92 @@
     }
 }
 
-body {
+.services-container {
+    position: relative;
     width: 100%;
-    height: 100%;
-    margin: 0; /* Reset default margin */
-    background-color: #C8B6AC;
-    font-family: Inknut Antiqua;
+    height: 100vh; /* Setting height to viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./image/services.png') no-repeat center center; /* Use image as background */
+    background-size: cover; /* Cover the container with the background image */
+    background-color: #EDE3D9; /* Fallback color */
 }
 
-.services {
-    background-color: #EDE3D9;
-    padding-top: 15%;
-    height: 180%;
+.services-container img {
+    display: none; /* Hide the image */
 }
 
-.services p {
+.services-container-header {
+    position: absolute;
+    top: 13%;
+    font-size: 5vw; /* Responsive font size */
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #C8B6AC;
-    background-color: #EDE3D9;
-    border-color:  #EDE3D9;
 }
 
-.services p:hover {
-    cursor: none;
+.talk-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Setting height to viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./image/talk.png') no-repeat center center; /* Use image as background */
+    background-size: cover; /* Cover the container with the background image */
+    background-color: #EDE3D9; /* Fallback color */
+}
+
+.talk-container img {
+    display: none; /* Hide the image */
+}
+
+.talk-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Setting height to viewport height */
+}
+
+.text-1 {
+    position: absolute;
+    top: 13%;
+    right: 18%;
+    font-size: 350%; /* Adjust font size as needed */
+    color: #C8B6AC; /* Adjust text color as needed */
+    font-weight: bold; 
+}
+
+.text-2 {
+    text-align: center; /* Center align the text */
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    font-size: 350%; /* Adjust font size as needed */
+    color: #EDE3D9;  /* Adjust text color as needed */
+    font-weight: bold; 
+}
+
+.talk-button {
+    position: absolute;
+    top: 40%;
+    font-size: 2.5vw; /* Responsive font size */
+    left: 71.5%;
+    transform: translate(-50%, -50%);
+    background-color: transparent; /* Transparent background */
+    border-color: transparent; /* Transparent border */
     color: #C8B6AC;
-    background-color: #EDE3D9;
-    border-color:  #EDE3D9;
+    border-radius: 5%;
+    border: 2px solid #C8B6AC; /* Add border */
+    padding: 1vw 2vw; /* Responsive padding */
 }
 
-.services p:active {
-    cursor: none;
+.talk-button:hover {
+    cursor: pointer;
+    color: #EDE3D9; /* Change text color on hover */
+    background-color: #C8B6AC; /* Change background color on hover */
+}
+
+.textcolor {
     color: #C8B6AC;
-    background-color: #EDE3D9;
-    border-color: #EDE3D9;
 }
-
-.services .custom-card {
-    border-radius: 50% 50% 0 0;
-    background-color: #C8B6AC;
-    height: 130%;
-}
-
-.services .card-img-top {
-    height: 50%;
-    width: 50%;
-    padding-left: 20%;
-}
-
-.services .card-button {
-    margin-top: 10px;
-}
-

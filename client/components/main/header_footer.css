@@ -19,6 +19,37 @@
     width: auto;
 }
 
+.div_1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_container {
+    position: relative; /* Ensure the container has a position set */
+}
+
+.div_3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: -36%;
+    bottom: 30%;
+}
+
+.divgeneral {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container {
+    background-color: #EDE3D9;
+}
+
 .menu_toggle {
     display: none;
     font-size: 24px;
@@ -75,3 +106,5 @@
         display: flex;
     }
 }
+
+
