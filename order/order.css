@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Reset default margin */
+    background-color: #C8B6AC;
+    font-family: Inknut Antiqua;
+}
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Setting height to viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../image/order.png') no-repeat center center; /* Use image as background */
+    background-size: cover; /* Cover the container with the background image */
+    background-color: #C8B6AC; /* Fallback color */
+}
+
+.background-container img {
+    display: none; /* Hide the image */
+}
+
+.background-container-header {
+    font-family: Inknut Antiqua;
+    position: absolute;
+    top: 15%;
+    font-size: 1000%; /* Responsive font size */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EDE3D9;
+}
+
+.shop-button {
+    font-family: Inknut Antiqua;
+    position: absolute;
+    top: 85%;
+    font-size: 2.5vw; /* Responsive font size */
+    left: 58%;
+    transform: translate(-50%, -50%);
+    background-color: transparent; /* Transparent background */
+    border-color: transparent; /* Transparent border */
+    color: #EDE3D9;
+    border-radius: 5%;
+    border: 2px solid #EDE3D9; /* Add border */
+    padding: 1vw 2vw; /* Responsive padding */
+}
+
+.shop-button:hover {
+    font-family: Inknut Antiqua;
+    cursor: pointer;
+    color: #C8B6AC; /* Change text color on hover */
+    background-color: #EDE3D9; /* Change background color on hover */
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%; /* Optional: Add some spacing between the columns */
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+input[type="text"] {
+    font-family: Inknut Antiqua;
+    background-color: #EDE3D9;
+    width: 80%; /* Set width to 40% of the container */
+    height: 50%;
+    margin-top: 25%; /* Add some space between inputs */
+    border: 2px solid #EDE3D9;
+}
+
+.p_text {
+    font-family: Inknut Antiqua;
+    font-size: 200%;
+    color: #EDE3D9;
+}

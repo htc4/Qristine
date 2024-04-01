@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Reset default margin */
+    background-color: #C8B6AC;
+    font-family: Inknut Antiqua;
+}
+
+.header {
+    text-align: center;
+    background-color: #C8B6AC;
+    color: #EDE3D9;
+    font-size: 650%;
+    font-family: Inknut Antiqua;
+}
+
+.color {
+    background-color: #C8B6AC;
+    height: 90vh;
+}
+
+.item {
+    margin-top: 5%;
+}
+
+.cards-container {
+    display: flex; /* Use flexbox */
+    justify-content: center;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.color .card {
+    flex: 0 0 auto; /* Let cards shrink or grow as needed */
+    margin-right: 20px; /* Add spacing between cards */
+    padding: 20px;
+    border: 1px solid #EDE3D9;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 300px; /* Set a fixed width for each card */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align items vertically */
+    justify-content: space-between; /* Space evenly between items */
+    background-color: #EDE3D9; /* Set background color */
+}
+
+.card:last-child {
+    margin-right: 0; /* Remove margin for the last card */
+}
+
+.card img {
+    width: 100%; /* Set width to 100% */
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+
+.buy-btn {
+    background-color: #C8B6AC;
+    color: #EDE3D9;
+    font-size: 150%;
+    border-radius: 30px; /* Make the button more rounded */
+    width: 100%; /* Take full width of the container */
+    height: 52px; /* Set button height */
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    padding: 10px 0; /* Adjust vertical padding */
+    margin-top: 10%; /* Add some spacing between image and button */
+    font-family: Inknut Antiqua;
+}
+
+.price {
+    color: #C8B6AC;
+    text-align: center;
+    font-size: 200%;
+    font-family: Inknut Antiqua;
+}
+
+.left-button {
+    font-family: Inknut Antiqua;
+    position: absolute;
+    top: 75%;
+    font-size: 2.5vw; /* Responsive font size */
+    left: 5%;
+    transform: translate(-50%, -50%);
+    background-color: transparent; /* Transparent background */
+    border-color: transparent; /* Transparent border */
+    color: #EDE3D9;
+    border-radius: 100%;
+    border: 2px solid #EDE3D9; /* Add border */
+    padding: 1vw 2vw; /* Responsive padding */
+}
+
+.left-button:hover {
+    font-family: Inknut Antiqua;
+    cursor: pointer;
+    color: #C8B6AC; /* Change text color on hover */
+    background-color: #EDE3D9; /* Change background color on hover */
+}
+
+.right-button {
+    font-family: Inknut Antiqua;
+    position: absolute;
+    top: 75%;
+    font-size: 2.5vw; /* Responsive font size */
+    right: 0%;
+    transform: translate(-50%, -50%);
+    background-color: transparent; /* Transparent background */
+    border-color: transparent; /* Transparent border */
+    color: #EDE3D9;
+    border-radius: 100%;
+    border: 2px solid #EDE3D9; /* Add border */
+    padding: 1vw 2vw; /* Responsive padding */
+}
+
+.right-button:hover {
+    font-family: Inknut Antiqua;
+    cursor: pointer;
+    color: #C8B6AC; /* Change text color on hover */
+    background-color: #EDE3D9; /* Change background color on hover */
+}
