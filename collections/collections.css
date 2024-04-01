@@ -7,25 +7,29 @@ body {
 }
 
 .header {
-    text-align: center;
-    background-color: #C8B6AC;
+    font-size: 550%;
     color: #EDE3D9;
-    font-size: 650%;
+    text-align: center;
     font-family: Inknut Antiqua;
 }
 
 .color {
     background-color: #C8B6AC;
-    height: 90vh;
+    height: 80vh;
+}
+
+.div {
+    background-color: #C8B6AC;
+    height: 20vh;
 }
 
 .item {
-    margin-top: 5%;
+    margin-bottom: 20px;
 }
 
 .cards-container {
     display: flex; /* Use flexbox */
-    justify-content: center;
+    justify-content: space-evenly;
     overflow-x: auto; /* Enable horizontal scrolling if needed */
 }
 
@@ -65,7 +69,13 @@ body {
     border: none;
     text-align: center;
     padding: 10px 0; /* Adjust vertical padding */
-    margin-top: 10%; /* Add some spacing between image and button */
+    margin-top: 10px; /* Add some spacing between image and button */
+    font-family: Inknut Antiqua;
+}
+
+.titles {
+    text-align: center;
+    color:#EDE3D9;
     font-family: Inknut Antiqua;
 }
 
@@ -74,48 +84,4 @@ body {
     text-align: center;
     font-size: 200%;
     font-family: Inknut Antiqua;
-}
-
-.left-button {
-    font-family: Inknut Antiqua;
-    position: absolute;
-    top: 75%;
-    font-size: 2.5vw; /* Responsive font size */
-    left: 5%;
-    transform: translate(-50%, -50%);
-    background-color: transparent; /* Transparent background */
-    border-color: transparent; /* Transparent border */
-    color: #EDE3D9;
-    border-radius: 100%;
-    border: 2px solid #EDE3D9; /* Add border */
-    padding: 1vw 2vw; /* Responsive padding */
-}
-
-.left-button:hover {
-    font-family: Inknut Antiqua;
-    cursor: pointer;
-    color: #C8B6AC; /* Change text color on hover */
-    background-color: #EDE3D9; /* Change background color on hover */
-}
-
-.right-button {
-    font-family: Inknut Antiqua;
-    position: absolute;
-    top: 75%;
-    font-size: 2.5vw; /* Responsive font size */
-    right: 0%;
-    transform: translate(-50%, -50%);
-    background-color: transparent; /* Transparent background */
-    border-color: transparent; /* Transparent border */
-    color: #EDE3D9;
-    border-radius: 100%;
-    border: 2px solid #EDE3D9; /* Add border */
-    padding: 1vw 2vw; /* Responsive padding */
-}
-
-.right-button:hover {
-    font-family: Inknut Antiqua;
-    cursor: pointer;
-    color: #C8B6AC; /* Change text color on hover */
-    background-color: #EDE3D9; /* Change background color on hover */
 }
