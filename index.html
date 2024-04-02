@@ -13,23 +13,36 @@
 
     <div class="background-container">
         <h1 class="background-container-header">FLOWERS BOUTIQUE</h1>
-        <button class="shop-button" onclick="shop()">SHOP</button>
-      </div>
+        <button class="shop-button" onclick="openShop()">SHOP</button>
+    </div>
     
-      <div class="services-container">
+    <div class="services-container">
         <h2 class="services-container-header">OUR SERVICES</h2>
-      </div>
+    </div>
     
-      <div class="talk-container">
+    <div class="talk-container">
         <p class="text-1">Talk to our staff</p>
         <p class="text-2">Realize your ideas <br> with us</p>
-        <button class="talk-button">Let's talk</button>
-      </div>
+        <button class="talk-button" onclick="openChat()">Let's talk</button>
+    </div>
 
     <div id="footerContainer" class="footer_container"></div>
 
+    <div id="chatbotContainer" class="chatbot-container">
+    <div class="chat-header">
+        <span class="close" onclick="closeChat()">×</span>
+        <h2>Help</h2>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+        <!-- Chat messages will be displayed here -->
+    </div>
+    <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Enter your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
     <script src="./script.js"></script>
     <script src="./components/header_footer.js"></script>
-    
 </body>
 </html>

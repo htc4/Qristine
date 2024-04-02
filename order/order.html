@@ -6,6 +6,7 @@
     <title>Order</title>
     <link rel="stylesheet" href="./order.css">
     <link rel="stylesheet" href="../components/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="../components/confirm/confirm.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -13,27 +14,27 @@
 
     <div class="background-container">
         <h1 class="background-container-header">ORDER</h1>
-        <button class="shop-button">Confirm</button>
+        <button class="shop-button" onclick="showCustomAlert()">Confirm</button>
         
             <div class="first">
                 <p class="p_text">Name</p>
-                <input type="text">
+                <input type="text" class="text">
                 <br>
                 <p class="p_text">Surname</p>
-                <input type="text">
+                <input type="text" class="text">
                 <br>
                 <p class="p_text">Phone</p>
-                <input type="text">
+                <input type="text" class="text">
             </div>
             <div class="second">
                 <p class="p_text">Address</p>
-                <input type="text">
+                <input type="text" class="text">
                 <br>
                 <p class="p_text">Cost</p>
-                <input type="text">
+                <input type="text" class="text">
                 <br>
                 <p class="p_text">Count</p>
-                <input type="text">
+                <input type="text" class="text">
             </div>
     </div>
    
@@ -42,5 +43,6 @@
     <div id="footerContainer" class="footer_container"></div>
 
     <script src="../components/header_footer.js"></script>
+    <script src="../components/confirm/confirm.js"></script>
 </body>
 </html>

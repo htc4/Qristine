@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./shop.css">
     <link rel="stylesheet" href="../components/header_footer.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
 </head>
 <body>
     <div id="menuContainer" class="menu_container"></div>
@@ -14,36 +16,127 @@
     <div>
         <div class="color">
             <h1 class="header">SHOP</h1>
-            <div class="item">
-                <div class="cards-container">
-                    <div class="card">
-                        <div>
-                        <img src="../image/flower1.png" alt="Item 1 Image">
-                        <p class="price">Price: 14000AMD</p>
-                        <button class="buy-btn">Buy</button>
+            <section class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../image/flower1.png">
+                                        <div class="card-body">
+                                            <p class="price">Price: 14000AMD</p>
+                                            <button class="buy-btn" onclick="order()">Buy</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../image/flower2.png">
+                                        <div class="card-body">
+                                            <p class="price">Price: 18000AMD</p>
+                                            <button class="buy-btn" onclick="order()">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../image/flower3.png">
+                                        <div class="card-body">
+                                            <p class="price">Price: 13500AMD</p>
+                                            <button class="buy-btn" onclick="order()">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div>
-                        <img src="../image/flower2.png" alt="Item 1 Image">
-                        <p class="price">Price: 9000AMD</p>
-                        <button class="buy-btn">Buy</button>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../image/flower4.png">
+                                        <div class="card-body">
+                                            <p class="price">Price: 17900AMD</p>
+                                            <button class="buy-btn" onclick="order()">Buy</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../image/flower5.png">
+                                        <div class="card-body">
+                                            <p class="price">Price: 22000AMD</p>
+                                            <button class="buy-btn" onclick="order()">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../image/flower6.png">
+                                        <div class="card-body">
+                                            <p class="price">Price: 29800AMD</p>
+                                            <button class="buy-btn" onclick="order()">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div>
-                        <img src="../image/flower3.png" alt="Item 1 Image">
-                        <p class="price">Price: 7500AMD</p>
-                        <button class="buy-btn">Buy</button>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../image/flower7.png">
+                                        <div class="card-body">
+                                            <p class="price">Price: 17500AMD</p>
+                                            <button class="buy-btn" onclick="order()">Buy</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../image/flower8.png">
+                                        <div class="card-body">
+                                            <p class="price">Price: 19900AMD</p>
+                                            <button class="buy-btn" onclick="order()">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../image/flower9.png">
+                                        <div class="card-body">
+                                            <p class="price">Price: 20000AMD</p>
+                                            <button class="buy-btn" onclick="order()">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
         </div>   
     </div>
     
-    <button class="left-button" onclick="general_left()"><-</button>
-    <button class="right-button"  onclick="general_right()">-></button>
+    <button class="left-button" class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev" class="fa fa-arrow-left"><-</button>
+    <button class="right-button"  class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next" class="fa fa-arrow-right">-></button>
 
     <div id="footerContainer" class="footer_container"></div>
 
@@ -51,4 +144,3 @@
     <script src="../components/header_footer.js"></script>
 </body>
 </html>
-<link rel="stylesheet" href="../shop/shop.html">
