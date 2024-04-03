@@ -19,8 +19,10 @@ function showCustomAlert() {
 }
 
 function closeCustomAlert() {
-    let inputText = document.getElementsByClassName('text')[0];
-    inputText.value = ' ';
+    let inputText = document.querySelectorAll('.text');
+    inputText.forEach(function(input) {
+        input.value = '';
+    });
     var alertWindow = document.querySelector('.alert-window');
     if (alertWindow) {
         alertWindow.parentNode.removeChild(alertWindow);
