@@ -17,8 +17,6 @@
 │   └── order.js
 ├── Shop
 │   ├── shop.html
-│   ├── shopleft.html
-│   ├── shopright.html
 │   ├── shop.css
 │   └── shop.js
 ├── image
@@ -44,23 +42,27 @@ Open Qristine directory -> index.html file
 When you open index.html file, the following page opens. It's a general page in website. 
 You can go to "shop", "collections" and "order" pages.
 
-<img src="./image/general.jpg" alt="general" width="300">
+<img src="./image/rmgeneral.png" alt="general" width="300">
 
 In shop page you can buy your favourite bouquet.
 
-<img src="./image/shop.jpg" alt="general" width="300">
+<img src="./image/rmshop.png" alt="shop" width="300">
 
 In collections page you can get to know our assortment and register an order.
 
-<img src="./image/collections.jpg" alt="general" width="300">
+<img src="./image/rmcollections.png" alt="collections" width="300">
 
 In order page you can do an individual orders.
 
-<img src="./image/order.jpg" alt="general" width="300">
+<img src="./image/rmorder.png" alt="order" width="300">
 
 You can communicate with our operators and get answers to your questions.
 
-<img src="./image/chat.jpg" alt="general" width="150">
+<img src="./image/rmchat.png" alt="chat" width="150">
+
+When you order something, a confirmation window will pop up letting you know that the order has been placed.
+
+<img src="./image/rmconfirm.png" alt="confirm" width="150">
 
 ## Demo version
  https://www.figma.com/proto/4HKXC8HGMSTs4PuVJgAfje/Untitled?type=design&node-id=265-240&t=hCtMXXbqhJhrBTHr-0&scaling=min-zoom&page-id=265%3A240&starting-point-node-id=265%3A274
