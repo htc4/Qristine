@@ -1,64 +1,72 @@
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0; /* Reset default margin */
     background-color: #C8B6AC;
-    font-family: Inknut Antiqua;
+    font-family: Inknut Antiqua !important;
 }
 
 .background-container {
     position: relative;
     width: 100%;
-    height: 100vh; /* Setting height to viewport height */
+    height: 100vh;
+    /* Setting height to viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./image/background.jpg') no-repeat center center; /* Use image as background */
-    background-size: cover; /* Cover the container with the background image */
-    background-color: #C8B6AC; /* Fallback color */
+    background: url('./image/background.jpg') no-repeat center center;
+    /* Use image as background */
+    background-size: cover;
+    /* Cover the container with the background image */
+    background-color: #C8B6AC;
+    /* Fallback color */
 }
 
 .background-container img {
-    display: none; /* Hide the image */
+    /* display: none; */
+    /* Hide the image */
 }
 
 .background-container-header {
-    font-family: Inknut Antiqua;
     position: absolute;
     top: 20%;
-    font-size: 350%; /* Responsive font size */
+    font-size: 350%;
+    /* Responsive font size */
     left: 50%;
     transform: translate(-50%, -50%);
     color: #EDE3D9;
 }
 
 .shop-button {
-    font-family: Inknut Antiqua;
     position: absolute;
     top: 40%;
-    font-size: 2.5vw; /* Responsive font size */
+    font-size: 2.5vw;
+    /* Responsive font size */
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: transparent; /* Transparent background */
-    border-color: transparent; /* Transparent border */
+    background-color: transparent;
+    /* Transparent background */
+    border-color: transparent;
+    /* Transparent border */
     color: #EDE3D9;
     border-radius: 5%;
-    border: 2px solid #EDE3D9; /* Add border */
-    padding: 1vw 2vw; /* Responsive padding */
+    border: 2px solid #EDE3D9;
+    /* Add border */
+    padding: 1vw 2vw;
+    /* Responsive padding */
 }
 
 .shop-button:hover {
-    font-family: Inknut Antiqua;
     cursor: pointer;
-    color: #C8B6AC; /* Change text color on hover */
-    background-color: #EDE3D9; /* Change background color on hover */
+    color: #C8B6AC;
+    /* Change text color on hover */
+    background-color: #EDE3D9;
+    /* Change background color on hover */
 }
 
 
-@media (max-width: 768px){
-    .background-container-header{
+@media (max-width: 768px) {
+    .background-container-header {
         font-size: 150%;
     }
+
     .shop-button {
         font-size: 70%;
         top: 35%;
@@ -66,9 +74,10 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
-    .background-container-header{
+    .background-container-header {
         font-size: 250%;
     }
+
     .shop-button {
         font-size: 100%;
         top: 50%;
@@ -78,93 +87,111 @@ body {
 .services-container {
     position: relative;
     width: 100%;
-    height: 100vh; /* Setting height to viewport height */
+    height: 100vh;
+    /* Setting height to viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./image/services.png') no-repeat center center; /* Use image as background */
-    background-size: cover; /* Cover the container with the background image */
-    background-color: #EDE3D9; /* Fallback color */
+    background: url('./image/services.png') no-repeat center center;
+    /* Use image as background */
+    background-size: cover;
+    /* Cover the container with the background image */
+    background-color: #EDE3D9;
+    /* Fallback color */
 }
 
 .services-container img {
-    display: none; /* Hide the image */
+    display: none;
+    /* Hide the image */
 }
 
 .services-container-header {
-    font-family: Inknut Antiqua;
     position: absolute;
     top: 13%;
-    font-size: 300%; /* Responsive font size */
+    font-size: 300%;
+    /* Responsive font size */
     left: 50%;
     transform: translate(-50%, -50%);
     color: #C8B6AC;
 }
 
 .talk-container {
-    font-family: Inknut Antiqua;
     position: relative;
     width: 100%;
-    height: 100vh; /* Setting height to viewport height */
+    height: 100vh;
+    /* Setting height to viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./image/talk.png') no-repeat center center; /* Use image as background */
-    background-size: cover; /* Cover the container with the background image */
-    background-color: #EDE3D9; /* Fallback color */
+    background: url('./image/talk.png') no-repeat center center;
+    /* Use image as background */
+    background-size: cover;
+    /* Cover the container with the background image */
+    background-color: #EDE3D9;
+    /* Fallback color */
 }
 
 .talk-container img {
-    display: none; /* Hide the image */
+    display: none;
+    /* Hide the image */
 }
 
 .talk-container {
     position: relative;
     width: 100%;
-    height: 100vh; /* Setting height to viewport height */
+    height: 100vh;
+    /* Setting height to viewport height */
 }
 
 .text-1 {
-    font-family: Inknut Antiqua;
     position: absolute;
     top: 13%;
     right: 19%;
-    font-size: 350%; /* Adjust font size as needed */
-    color: #C8B6AC; /* Adjust text color as needed */
-    font-weight: bold; 
+    font-size: 350%;
+    /* Adjust font size as needed */
+    color: #C8B6AC;
+    /* Adjust text color as needed */
+    font-weight: bold;
 }
 
 .text-2 {
-    font-family: Inknut Antiqua;
-    text-align: center; /* Center align the text */
+    text-align: center;
+    /* Center align the text */
     position: absolute;
     bottom: 15%;
     left: 17%;
-    font-size: 350%; /* Adjust font size as needed */
-    color: #EDE3D9;  /* Adjust text color as needed */
-    font-weight: bold; 
+    font-size: 350%;
+    /* Adjust font size as needed */
+    color: #EDE3D9;
+    /* Adjust text color as needed */
+    font-weight: bold;
 }
 
 .talk-button {
-    font-family: Inknut Antiqua;
     position: absolute;
     top: 40%;
-    font-size: 2.5vw; /* Responsive font size */
+    font-size: 2.5vw;
+    /* Responsive font size */
     left: 71.5%;
     transform: translate(-50%, -50%);
-    background-color: transparent; /* Transparent background */
-    border-color: transparent; /* Transparent border */
+    background-color: transparent;
+    /* Transparent background */
+    border-color: transparent;
+    /* Transparent border */
     color: #C8B6AC;
     border-radius: 5%;
-    border: 2px solid #C8B6AC; /* Add border */
-    padding: 1vw 2vw; /* Responsive padding */
+    border: 2px solid #C8B6AC;
+    /* Add border */
+    padding: 1vw 2vw;
+    /* Responsive padding */
 }
 
 .talk-button:hover {
-    font-family: Inknut Antiqua;
     cursor: pointer;
-    color: #EDE3D9; /* Change text color on hover */
-    background-color: #C8B6AC; /* Change background color on hover */
+    color: #EDE3D9;
+    /* Change text color on hover */
+    background-color: #C8B6AC;
+    /* Change background color on hover */
 }
 
 .logo {
@@ -179,19 +206,17 @@ body {
     height: 45%;
     background-color: #C8B6AC;
     color: #EDE3D9;
-    z-index: 9999; 
+    z-index: 9999;
     display: none;
     border-radius: 5%;
 }
 
 .chat-header {
-    font-family: Inknut Antiqua;
     padding: 10px;
     border-bottom: 1px solid #EDE3D9;
 }
 
 .chat-header h2 {
-    font-family: Inknut Antiqua;
     text-align: center;
     margin: 0;
     font-style: bolder;
@@ -203,14 +228,13 @@ body {
 }
 
 .chat-messages {
-    font-family: Inknut Antiqua;
     padding: 10px;
-    max-height: calc(100% - 100px); /* Adjust based on your design */
+    max-height: calc(100% - 100px);
+    /* Adjust based on your design */
     overflow-y: auto;
 }
 
 .chat-input {
-    font-family: Inknut Antiqua;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -222,13 +246,11 @@ body {
 }
 
 .chat-input input[type="text"] {
-    font-family: Inknut Antiqua;
     flex: 1;
     margin-right: 10px;
 }
 
 .chat-input button {
-    font-family: Inknut Antiqua;
     background-color: #EDE3D9;
     color: #C8B6AC;
     border: none;
